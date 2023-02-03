@@ -1,0 +1,30 @@
+.operation {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    max-width: 900px;
+    height: auto;
+}
+.oneHead{
+    background-color: red !important;
+}
+
+.operation td, .operation th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.operation tr:nth-child(even){background-color: #f2f2f2;}
+
+.operation tr:hover {background-color: #ddd;}
+
+.operation th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #9b9b9b;
+    color: white;
+}
+.figures{
+    text-transform: uppercase;
+}
